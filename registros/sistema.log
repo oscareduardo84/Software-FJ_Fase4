@@ -1,0 +1,103 @@
+2026-11-22 00:05:40,261 - INFO - Sistema de gestión iniciado correctamente.
+2026-11-22 00:05:40,265 - INFO - Cliente registrado: C001
+2026-11-22 00:05:40,273 - INFO - Cliente registrado: C002
+2026-11-22 00:05:40,275 - INFO - Servicio registrado: S001
+2026-11-22 00:05:40,276 - INFO - Servicio registrado: S002
+2026-11-22 00:05:40,277 - INFO - Servicio registrado: S003
+2026-11-22 00:05:40,281 - INFO - Reserva registrada: R001
+2026-11-22 00:05:40,283 - INFO - Reserva registrada: R002
+2026-11-22 00:05:40,285 - INFO - Reserva registrada: R003
+2026-11-22 00:05:40,286 - INFO - Reserva confirmada: R001
+2026-11-22 00:05:40,286 - INFO - Reserva confirmada: R002
+2026-11-22 00:05:40,287 - INFO - Reserva confirmada: R003
+2026-11-22 00:05:40,287 - INFO - Reserva procesada: R001
+2026-11-22 00:05:40,293 - INFO - Reserva procesada: R002
+2026-11-22 00:05:40,294 - INFO - Reserva cancelada: R003
+2026-11-22 00:05:40,295 - ERROR - Error al registrar un cliente.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 85, in registrar_cliente
+    raise DatosInvalidosError(
+        "Ya existe un cliente con ese identificador."
+    )
+excepciones.errores.DatosInvalidosError: Ya existe un cliente con ese identificador.
+2026-11-22 00:05:40,391 - WARNING - No se encontró el cliente: C999
+2026-11-22 00:05:40,391 - WARNING - No se encontró el servicio: S999
+2026-11-22 00:05:40,392 - ERROR - Error al cancelar la reserva R001.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 338, in cancelar_reserva
+    resultado = reserva.cancelar()
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\modelos\reserva.py", line 173, in cancelar
+    raise RuntimeError("No se puede cancelar una reserva procesada.")
+RuntimeError: No se puede cancelar una reserva procesada.
+2026-11-22 00:05:40,427 - INFO - Sistema de gestión finalizado.
+2026-11-22 00:18:36,067 - INFO - Sistema de gestión iniciado correctamente.
+2026-11-22 00:18:36,068 - INFO - Cliente registrado: C001
+2026-11-22 00:18:36,069 - INFO - Cliente registrado: C002
+2026-11-22 00:18:36,069 - INFO - Servicio registrado: S001
+2026-11-22 00:18:36,070 - INFO - Servicio registrado: S002
+2026-11-22 00:18:36,070 - INFO - Servicio registrado: S003
+2026-11-22 00:18:36,071 - INFO - Reserva registrada: R001
+2026-11-22 00:18:36,071 - INFO - Reserva registrada: R002
+2026-11-22 00:18:36,073 - INFO - Reserva registrada: R003
+2026-11-22 00:18:36,073 - INFO - Reserva confirmada: R001
+2026-11-22 00:18:36,073 - INFO - Reserva confirmada: R002
+2026-11-22 00:18:36,075 - INFO - Reserva confirmada: R003
+2026-11-22 00:18:36,075 - INFO - Reserva procesada: R001
+2026-11-22 00:18:36,077 - INFO - Reserva procesada: R002
+2026-11-22 00:18:36,078 - INFO - Reserva cancelada: R003
+2026-11-22 00:18:36,079 - ERROR - Error al registrar un cliente.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 85, in registrar_cliente
+    raise DatosInvalidosError(
+        "Ya existe un cliente con ese identificador."
+    )
+excepciones.errores.DatosInvalidosError: Ya existe un cliente con ese identificador.
+2026-11-22 00:18:36,105 - WARNING - No se encontró el cliente: C999
+2026-11-22 00:18:36,106 - WARNING - No se encontró el servicio: S999
+2026-11-22 00:18:36,106 - ERROR - Error al cancelar la reserva R001.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 338, in cancelar_reserva
+    resultado = reserva.cancelar()
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\modelos\reserva.py", line 213, in cancelar
+    raise RuntimeError(
+        "No se puede cancelar una reserva procesada."
+    )
+RuntimeError: No se puede cancelar una reserva procesada.
+2026-11-22 00:18:36,119 - INFO - Sistema de gestión finalizado.
+2026-11-22 00:22:36,628 - INFO - Sistema de gestión iniciado correctamente.
+2026-11-22 00:22:36,629 - INFO - Cliente registrado: C001
+2026-11-22 00:22:36,630 - INFO - Cliente registrado: C002
+2026-11-22 00:22:36,630 - INFO - Servicio registrado: S001
+2026-11-22 00:22:36,631 - INFO - Servicio registrado: S002
+2026-11-22 00:22:36,631 - INFO - Servicio registrado: S003
+2026-11-22 00:22:36,632 - INFO - Reserva registrada: R001
+2026-11-22 00:22:36,633 - INFO - Reserva registrada: R002
+2026-11-22 00:22:36,638 - INFO - Reserva registrada: R003
+2026-11-22 00:22:36,643 - INFO - Reserva confirmada: R001
+2026-11-22 00:22:36,643 - INFO - Reserva confirmada: R002
+2026-11-22 00:22:36,643 - INFO - Reserva confirmada: R003
+2026-11-22 00:22:36,646 - INFO - Reserva procesada: R001
+2026-11-22 00:22:36,647 - INFO - Reserva procesada: R002
+2026-11-22 00:22:36,648 - INFO - Reserva registrada: R004
+2026-11-22 00:22:36,650 - INFO - Reserva confirmada: R004
+2026-11-22 00:22:36,658 - INFO - Reserva cancelada: R004
+2026-11-22 00:22:36,659 - INFO - Reserva cancelada: R003
+2026-11-22 00:22:36,660 - ERROR - Error al registrar un cliente.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 85, in registrar_cliente
+    raise DatosInvalidosError(
+        "Ya existe un cliente con ese identificador."
+    )
+excepciones.errores.DatosInvalidosError: Ya existe un cliente con ese identificador.
+2026-11-22 00:22:36,690 - WARNING - No se encontró el cliente: C999
+2026-11-22 00:22:36,691 - WARNING - No se encontró el servicio: S999
+2026-11-22 00:22:36,691 - ERROR - Error al cancelar la reserva R001.
+Traceback (most recent call last):
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\gestion\sistema.py", line 338, in cancelar_reserva
+    resultado = reserva.cancelar()
+  File "C:\Users\alici\Documents\Software_FJ_Fase4\modelos\reserva.py", line 213, in cancelar
+    raise RuntimeError(
+        "No se puede cancelar una reserva procesada."
+    )
+RuntimeError: No se puede cancelar una reserva procesada.
+2026-11-22 00:22:36,696 - INFO - Sistema de gestión finalizado.
